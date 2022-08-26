@@ -8,9 +8,12 @@ header{
     display: flex;
     justify-content: space-between;
     height:150px;
+    position: sticky;
+    top:0px;
+    z-index: 1;
 }
 .logo{
-    top:20px
+    display: flex;
 
 }
 h1{
@@ -36,28 +39,131 @@ h1{
     color: white;
 
 }
-.first{
+.welcomesec{
     display: flex;
     background-color: grey;
+    
 }
 #welcome{
     position:relative;
     font-size: 100px;
     text-align: center;
-    top:150px;
+    top:100px;
 }
 
 .loaded{
     height:600px;
-    /* width:900px; */
+   
+}
+.announcements{
+    /* background-color: grey; */
+    margin: 20px;
 }
 .parent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas:
+    "box7 box7 box8 box8"
+    "box1 box2 box3 box3"
+    "box4 box4 box5 box6";
+    /* gap: 10px 10px; */
 }
 
 .child{
-    border: 1px solid black;
+    /* border: 1px solid ; */
+}
+.child{
+    position: relative;
+}
+.overlay{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 40px;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    color:white;
+    opacity: 0;
+    transition: .3s;
+    backdrop-filter: blur(5px);
+}
+.overlay:hover{
+    opacity: 1;
+}
+.parent >.box1{
+    grid-area:box1;
+    display:flex;
+    /* background-color: rgba(0, 0, 0, .3); */
+}
+.parent >.box1:hover{
+    background: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+}
+.parent >.box2{
+    grid-area:box2;
+    display:flex;
+}
+.parent >.box2:hover{
+    background: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+}
+.parent >.box3{
+    grid-area:box3;
+    display:flex;
+}
+.parent >.box3:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+}
+.parent >.box4{
+    grid-area:box4;
+    display:flex;
+}
+.parent >.box4:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+}
+.parent >.box5{
+    grid-area:box5;
+    display:flex;
+}
+.parent >.box5:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+}
+.parent >.box6{
+    grid-area:box6;
+    display:flex;
+}
+.parent >.box6:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+    scale: 2px;;
+}
+.parent >.box7{
+    grid-area:box7;
+    display:flex;
+}
+.parent >.box7:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+    scale: 2px;;
+}.parent >.box8{
+    grid-area:box8;
+    display:flex;
+}
+.parent >.box8:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: 0.5s;
+    scale: 2px;;
+}
+.annouce-pic{
+    width:100%;
+    display:block
+    
 }
