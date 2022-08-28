@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    /* background-color: black; */
 
 }
 header{
@@ -55,10 +56,11 @@ h1{
     height:600px;
    
 }
-.announcements{
-    /* background-color: grey; */
-    margin: 20px;
+h3{
+    color: white;
 }
+#artists{
+    background-color: black;}
 .parent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
