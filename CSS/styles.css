@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     /* background-color: black; */
+    font-family: Helvetica;
 
 }
 header{
@@ -58,6 +59,8 @@ h1{
 }
 h3{
     color: white;
+    text-align: center;
+    font-size: 60px;
 }
 #artists{
     background-color: black;}

@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* background-color: black; */
+    font-family: Helvetica;
 
 }
 /* Header */
@@ -40,4 +40,122 @@ h1{
 .nav > a:visited{
     color: white;
 
+}
+
+/* Summer Walker Style */
+.video{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding:50px
+}
+.about, .more{
+    background-color: pink;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px
+}
+/* 6LACK Style */
+.video6lack{
+    display: flex;
+    justify-content: center;
+    background-color: #505050;
+    padding:50px
+}
+.about6lack, .more6lack{
+    background-color: #505050	;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px
+}
+
+/* Westside Boogie Style */
+.videoboogie{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: red;
+    padding:50px
+}
+.aboutboogie, .moreboogie{
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px
+}
+/* Alex Vaughn Style */
+.videoalex{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(29,14,69);
+    color:#b03246;
+    padding:50px
+}
+.aboutalex, .morealex{
+    background-color:rgb(29,14,69);
+    color:#b03246;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px
+}
+/* Eli Derby Style */
+.videoeli{
+    display: flex;
+    justify-content: center;
+    background-color:#c77058;
+    color:#eee5dd;
+    padding:50px
+}
+.abouteli, .moreeli{
+    background-color:#c77058;
+    color:#eee5dd;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px
+}
+/*DVSN Style */
+.videodvsn{
+    display: flex;
+    justify-content: center;
+    background-color:#6639bf;
+    color:#331963;
+    padding:50px
+}
+.aboutdvsn, .moredvsn{
+    background-color:#6639bf;
+    color:#331963;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px;
+}
+/*Norht Ave Jax Style */
+.videojax{
+    display: flex;
+    justify-content: center;
+    background-color:#60605f;
+    color:#f8c246;
+    padding:50px
+}
+.aboutjax, .morejax{
+    background-color:#60605f;
+    color:#f8c246;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px;
+}
+/*BRS Kash Style */
+.videokash{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color:white;
+    padding:50px
+}
+.aboutkash, .morekash{
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    padding:0px 100px 50px 100px;
 }
